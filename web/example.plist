@@ -2,15 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>bundle-identifier</key>
-	<string>online.games.com</string>
-	<key>bundle-version</key>
-	<string>50000</string>
-	<key>kind</key>
-	<string>software-package</string>
-	<key>title</key>
-	<string>PuzzleHeroes</string>
-	<key>url</key>
-	<string>http://10.7.21.106/ipa/Antia_042217:38:59_release_r5.0_production_1.ipa</string>
+	<key>items</key>
+	<dict>
+		<key>assets</key>
+		<dict>
+			<key>kind</key>
+			<string></string>
+			<key>url</key>
+			<string></string>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>bundle-identifier</key>
+			<string></string>
+			<key>bundle-version</key>
+			<string></string>
+			<key>kind</key>
+			<string></string>
+			<key>title</key>
+			<string></string>
+		</dict>
+	</dict>
 </dict>
 </plist>
