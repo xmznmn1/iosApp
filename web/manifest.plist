@@ -17,7 +17,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.onlines1.games</string>
+				<string>com.SolarSoft.SolarWallet</string>
 				<key>bundle-version</key>
 				<string>50000</string>
 				<key>kind</key>
