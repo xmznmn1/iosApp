@@ -9,33 +9,21 @@
 			<array>
 				<dict>
 					<key>kind</key>
-					<string>software-package</string>
+					<string>software</string>
 					<key>url</key>
 					<string>http://10.7.21.106/ipa/Antia_042217:38:59_release_r5.0_production_1.ipa</string>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>display-image</string>
-					<key>url</key>
-					<string>https://www.baidu.com</string>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>full-size-image</string>
-					<key>url</key>
-					<string>https://www.baidu.com</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.SolarSoft.SolarWallet</string>
+				<string>com.onlines1.games</string>
 				<key>bundle-version</key>
-				<string>1.0</string>
+				<string>50000</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>chjz.0</string>
+				<string>Puzzle&amp;Heroes</string>
 			</dict>
 		</dict>
 	</array>
