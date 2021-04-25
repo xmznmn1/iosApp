@@ -13,6 +13,18 @@
 					<key>url</key>
 					<string>http://10.7.21.106/ipa/Antia_042217:38:59_release_r5.0_production_1.ipa</string>
 				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<string>https://www.baidu.com</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<string>https://www.baidu.com</string>
+				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
