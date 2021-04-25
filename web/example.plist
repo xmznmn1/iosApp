@@ -3,29 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>items</key>
-<array>
-	<dict>
-		<key>assets</key>
-<array>
+	<array>
 		<dict>
-			<key>kind</key>
-			<string>software</string>
-			<key>url</key>
-			<string>http://10.7.21.106/ipa/Antia_042217:38:59_release_r5.0_production_1.ipa</string>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software</string>
+					<key>url</key>
+					<string>http://10.7.21.106/ipa/Antia_042217:38:59_release_r5.0_production_1.ipa</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.onlines1.games</string>
+				<key>bundle-version</key>
+				<string>50000</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>Puzzle&amp;Heroes</string>
+			</dict>
 		</dict>
-</array>
-		<key>metadata</key>
-		<dict>
-			<key>bundle-identifier</key>
-			<string>com.online.games</string>
-			<key>bundle-version</key>
-			<string>50000</string>
-			<key>kind</key>
-			<string>software</string>
-			<key>title</key>
-			<string>PuzzleHeroes</string>
-		</dict>
-	</dict>
-</array>
+	</array>
 </dict>
 </plist>
