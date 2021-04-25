@@ -7,20 +7,20 @@
 		<key>assets</key>
 		<dict>
 			<key>kind</key>
-			<string></string>
+			<string>software</string>
 			<key>url</key>
-			<string></string>
+			<string>http://10.7.21.106/ipa/Antia_042217:38:59_release_r5.0_production_1.ipa</string>
 		</dict>
 		<key>metadata</key>
 		<dict>
 			<key>bundle-identifier</key>
-			<string></string>
+			<string>com.online.games</string>
 			<key>bundle-version</key>
-			<string></string>
+			<string>50000</string>
 			<key>kind</key>
-			<string></string>
+			<string>software</string>
 			<key>title</key>
-			<string></string>
+			<string>PuzzleHeroes</string>
 		</dict>
 	</dict>
 </dict>
