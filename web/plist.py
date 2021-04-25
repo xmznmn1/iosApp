@@ -3,6 +3,9 @@
 
 from biplist import *
 from datetime import datetime
+import sys
+
+url = sys.argv[1]
 plist = {
     'items':
     [
@@ -11,7 +14,7 @@ plist = {
             [
                 {
                     'kind': 'software-package',
-                    'url': 'http://10.7.21.106/ipa/Antia_042217:38:59_release_r5.0_production_1.ipa',
+                    'url': url,
                 },
             ],
             'metadata':
@@ -25,6 +28,6 @@ plist = {
     ]
 }
 try:
-    writePlist(plist, "manifest.plist",binary=False)
+    writePlist(plist, "manifest.plist", binary=False)
 except(InvalidPlistException, NotBinaryPlistException) as e:
     print("Something bad happened:", e)
