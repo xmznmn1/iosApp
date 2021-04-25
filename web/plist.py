@@ -27,4 +27,4 @@ plist = {
 try:
     writePlist(plist, "manifest.plist",binary=False)
 except(InvalidPlistException, NotBinaryPlistException) as e:
-    print ("Something bad happened:", e)
+    print("Something bad happened:", e)
