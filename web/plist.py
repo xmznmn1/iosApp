@@ -6,9 +6,14 @@ from datetime import datetime
 import sys
 import os
 
-
-url = sys.argv[1]
-env = sys.argv[2]
+url = ''
+env = sys.argv[1]
+if env == 'production':
+    url = 'http://10.7.21.106/ipa/downloads/production.ipa'
+elif env == 'sandbox':
+    url = 'http://10.7.21.106/ipa/downloads/sandbox.ipa'
+elif env == 'development':
+    url = 'http://10.7.21.106/ipa/downloads/development.ipa'
 plist = {
     'items':
     [
