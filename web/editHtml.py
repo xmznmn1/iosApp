@@ -8,7 +8,7 @@ date = sys.argv[2]
 confBranch = sys.argv[3]
 ipaName = '%s_%s_%s' % (date, env, confBranch)
 html = "index.html"
-soup = BeautifulSoup(open(html, encoding='utf-8'))
+soup = BeautifulSoup(open(html, encoding='utf-8'),'html.parser')
 if env == 'production':
     soup.find_all(attrs='instructions')[0].string= '安装production环境包：'+ipaName
     print(soup.find_all(attrs='instructions')[0].string)
