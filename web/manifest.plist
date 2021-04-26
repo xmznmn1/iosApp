@@ -11,11 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-<<<<<<< HEAD
-					<string>http://10.7.21.106/ipa/Antia_042614:55:51_release_r5.0_production_0.ipa</string>
-=======
 					<string>http://10.7.21.106/ipa/downloads/production.ipa</string>
->>>>>>> f3e70ade4ba72d676110cdb759b2362e2e8835ef
 				</dict>
 			</array>
 			<key>metadata</key>
