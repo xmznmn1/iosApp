@@ -14,8 +14,8 @@ if env == 'production':
     soup.find_all(attrs='instructions')[0].string= '安装production环境包：'+ipaName
     print(soup.find_all(attrs='instructions')[0].string)
 elif env == 'sandbox':
-    soup.find_all(attrs='instructions')[2].string = '安装sandbox环境包：'+ipaName
-    print(soup.find_all(attrs='instructions')[2].string)
+    soup.find_all(attrs='instructions')[1].string = '安装sandbox环境包：'+ipaName
+    print(soup.find_all(attrs='instructions')[1].string)
 elif env == 'development':
     soup.find_all(attrs='instructions')[2].string = '安装development环境包：'+ipaName
     print(soup.find_all(attrs='instructions')[2].string)
