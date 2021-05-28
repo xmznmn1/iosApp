@@ -9,11 +9,11 @@ import os
 url = ''
 env = sys.argv[1]
 if env == 'production':
-    url = 'http://10.7.21.106/ipa/downloads/production.ipa'
+    url = 'http://10.7.2.101/ipa/downloads/production.ipa'
 elif env == 'sandbox':
-    url = 'http://10.7.21.106/ipa/downloads/sandbox.ipa'
+    url = 'http://10.7.2.101/ipa/downloads/sandbox.ipa'
 elif env == 'development':
-    url = 'http://10.7.21.106/ipa/downloads/development.ipa'
+    url = 'http://10.7.2.101/ipa/downloads/development.ipa'
 plist = {
     'items':
     [
